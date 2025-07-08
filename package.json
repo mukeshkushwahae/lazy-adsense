@@ -1,0 +1,33 @@
+{
+    "name": "lazy-adsense",
+    "version": "1.0.0",
+    "description": "A lightweight script to lazily load Google AdSense after user interaction (scroll or click) for better Core Web Vitals.",
+    "main": "dist/lazy-adsense.min.js",
+    "type": "module",
+    "scripts": {
+        "build": "rollup -c"
+    },
+    "keywords": [
+        "adsense",
+        "lazyload",
+        "google ads",
+        "core-web-vitals",
+        "performance",
+        "javascript",
+        "ad optimization"
+    ],
+    "author": "Mukesh Kushwaha",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mukeshkushwahae/lazy-adsense.git"
+    },
+    "homepage": "https://mukeshkushwahae.github.io/lazy-adsense/demo/",
+    "bugs": {
+        "url": "https://github.com/mukeshkushwahae/lazy-adsense/issues"
+    },
+    "devDependencies": {
+        "@rollup/plugin-terser": "^0.4.4",
+        "rollup": "^3.29.4"
+    }
+}

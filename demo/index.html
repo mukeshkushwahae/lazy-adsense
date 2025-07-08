@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- ===== Charset and Viewport ===== -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- ===== SEO Meta Tags ===== -->
+   <title>Lazy AdSense Demo</title>
+   <meta name="description" content="Lazy AdSense is a lightweight JavaScript plugin that defers Google AdSense script loading until user interaction, boosting performance and Core Web Vitals.">
+   <meta name="keywords" content="lazy adsense, lazyload adsense, google adsense loader, adsense optimization, adsense defer, core web vitals, performance js, adsense after scroll, adsense script delay, improve adsense loading, lightweight adsense plugin">
+   <meta name="author" content="Mukesh Kushwaha">
+   <link rel="canonical" href="https://mukeshkushwahae.github.io/lazy-adsense/demo/">
+   <!-- ===== Favicon & Icons ===== -->
+   <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+   <link rel="shortcut icon" href="./favicon.ico">
+   <!-- ===== Robots and Crawlers ===== -->
+   <meta name="robots" content="index, follow">
+   <meta name="googlebot" content="index, follow">
+   <meta name="bingbot" content="index, follow">
+   <!-- ===== CSS ===== -->
+   <style type="text/css">
+      body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background-color: #f9f9f9;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: system-ui, sans-serif;
+      text-align: center
+      }
+      h1 {
+      margin-bottom: 10px;
+      font-size: 2rem;
+      color: #444
+      }
+      p {
+      margin-top: 0;
+      color: #666
+      }
+   </style>
+</head>
+<body>
+   <!-- ===== Lazy AdSense Demo ===== -->
+   <h1>Lazy AdSense Demo</h1>
+   <p>Scroll or click anywhere to load AdSense script.</p>
+   <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-1234567890123456"
+      data-ad-slot="1234567890"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+   <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+   </script>
+   <!-- ===== JavaScript Plugin ===== -->
+   <script>
+      window.lazyAdClient = "ca-pub-1234567890123456"; // Replace with your ID
+   </script>
+   <script src="../dist/lazy-adsense.min.js" defer></script>
+</body>
+</html>
